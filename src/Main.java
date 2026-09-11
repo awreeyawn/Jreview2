@@ -16,6 +16,16 @@ public void main() {
         System.out.println(numb);
     }
 
+    HashSet<Integer> numero = new HashSet<>();
+    numero.add(1);
+    numero.add(2);
+    numero.add(3);
+    numero.add(4);
+    numero.add(5);
+
+    for (Integer numberss:numero){
+        System.out.println("number " + numberss);
+    }
 
 }
 
